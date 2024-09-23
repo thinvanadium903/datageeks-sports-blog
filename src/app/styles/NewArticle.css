@@ -1,0 +1,40 @@
+.article-whole {
+    width: 40vw;
+    height: 40vh;
+    padding-bottom: 1vh;
+    background-color: #f2f2f2;
+    border-radius: 5vw;
+    transition: transform .25s;
+}
+
+.article-whole:hover {
+    transform: scale(1.05);
+}
+
+.article-preview {
+    padding-right: 10px;
+    border-bottom: 10px;
+}
+
+.article-whole .article-preview {
+    margin-left: 2vw;
+}
+
+.image {
+    border-radius: 5vw 5vw 0vw 0vw ;
+}
+
+.article-title h2 {
+    transition: transform .25s;
+    text-decoration: underline;
+}
+
+.article-title:hover h2 {
+    transform: scale(1.02);
+    color: #bb3332;
+}
+
+.article-preview p {
+    font-weight: 350;
+    color: #242424;
+}

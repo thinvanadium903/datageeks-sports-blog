@@ -1,0 +1,7 @@
+.article-grid {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    align-content: center;
+    column-gap: 5vw;
+    row-gap: 5vh;
+}
