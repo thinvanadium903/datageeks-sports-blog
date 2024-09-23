@@ -1,7 +1,8 @@
 'use client'
 
 import '../styles/NewArticle.css'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import Link from 'next/link'
 
 function NewArticle({ title, imageUrl, description, link }) {
     const divStyle = {
@@ -19,7 +20,7 @@ function NewArticle({ title, imageUrl, description, link }) {
             </div>
             <div className="article-preview">
                 <div className="article-title">
-                    <h2>{title}</h2>
+                        <Link href={link}><h2>{title}</h2></Link>
                 </div>
                     <p>{description}</p>
                 </div>
