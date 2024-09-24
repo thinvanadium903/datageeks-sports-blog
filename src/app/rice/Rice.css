@@ -6,10 +6,22 @@
     height: 40vw;
     border-radius: 10px;
     margin-left: 2vw;
-    padding-bottom: 1vh;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
     transition: transform .25s;
 }
 
 #receiving_bar:hover {
-    transform: scale(1.05);
+    transform: scale(1.05)
+}
+
+#lead_image {
+    background-image: url('../media/rice.jpg');
+    background-size: cover;
+    background-position: 0px 0px;
+    width: 60vw;
+    height: 35vw;
+    border-radius: 10px;
+    margin-left: 2vw;
+    padding-bottom: 1vh;
 }

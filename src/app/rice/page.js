@@ -10,6 +10,7 @@ function App() {
       <Header></Header>
       <div className='full'>
         <h1>The Unparalleled Career Dominance of Jerry Rice</h1>
+        <div id='lead_image'></div>
         <p>In sports, there are many arguments - rational and otherwise - that fans and observers use to gauge
               who is the greatest player of all time in a particular sport. In basketball for instance, the argument 
               largely hinges on individual "legacy", and said argument usually comes down to 
@@ -21,9 +22,9 @@ function App() {
           and eras much more difficult. As such, the discussion of "Greatest of All Time" is more or less limited to
           a specific position. </p>
           <p>However, the wide receiver position does not experience this dilemma; simply put, Jerry Rice has it all. In his unprecedented 20-year
-          career, Rice combined elite, league-leading performance with a degree of longevity and durability that would be exceptional for a quarterback or kicker,
+          career, Rice combined elite, league-leading performance with longevity and durability that would be exceptional for a quarterback or kicker,
           let alone the brutally physical wide receiver position. His career statistics tower over every other player's <h4>regardless </h4>
-          of position, and his legacy as an ultra-clutch playoff performer make him (arguably) the very greatest player in NFL history. 
+          of position, and the degree to which he dominated his position makes him arguably the greatest player in NFL history.
         </p>
         <h2>The Career Records</h2>
         <p>Jerry Rice doesn't just hold the career records for the major receiving categories like receiving yards and touchdowns - it's 
