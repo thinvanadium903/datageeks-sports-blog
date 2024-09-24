@@ -1,10 +1,18 @@
 .article-whole {
     width: 40vw;
-    height: 40vh;
-    padding-bottom: 1vh;
+    height: fit-content;
     background-color: #f2f2f2;
     border-radius: 5vw;
     transition: transform .25s;
+}
+
+.image {
+    background-size: cover;
+    justify-self: center;
+    background-repeat: no-repeat;
+    height: 25vh;
+    width: 40vw;
+    border-radius: 5vw 5vw 0vw 0vw;
 }
 
 .article-whole:hover {
@@ -12,11 +20,12 @@
 }
 
 .article-preview {
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-
-.article-whole .article-preview {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: fit-content;
+    padding-right: 2vw;
+    padding-bottom: 1vw;
     margin-left: 2vw;
 }
 
@@ -32,6 +41,7 @@
     margin-top: 1vh;
     margin-bottom: 1vh;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-right: 10px;
 }
 
 .article-title:hover h2 {
@@ -43,4 +53,33 @@
     font-weight: 350;
     color: #242424;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 1vw;
+    padding-right: 1vw;
+    height: fit-content;
+}
+
+@media (max-width: 700px) {
+    .article-whole {
+        width: 80vw;
+    }
+
+    .article-preview {
+        width: 80vw;
+    }
+
+    .image {
+        width: 80vw;
+    }
+}
+
+@media (min-width: 1100px) {
+    .article-whole {
+        width: 30vw;
+    }
+    .article-preview {
+        width: 30vw;
+    }
+    .image {
+        width: 30vw;
+    }
 }

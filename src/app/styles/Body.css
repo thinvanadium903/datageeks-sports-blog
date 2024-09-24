@@ -4,5 +4,6 @@
     background-color: #dddddd;
     display: grid;
     justify-items: center;
+    align-items: center;
     margin: 0px;
 }

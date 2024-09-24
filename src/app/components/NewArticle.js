@@ -7,11 +7,7 @@ import Link from 'next/link'
 function NewArticle({ title, imageUrl, description, link }) {
     const divStyle = {
         backgroundImage: `url(${imageUrl})`, // Set the background image
-        backgroundSize: 'cover', // Adjust how the image fits
-        backgroundPosition: '0px -40px', // Center the image
-        height: '25vh', // Set a height for the div
-        width: '40vw', // Set a width for the div (optional)
-        borderRadius: '5vw 5vw 0vw 0vw',
+        
       };
     return (
         <div className="article-whole">
@@ -23,7 +19,7 @@ function NewArticle({ title, imageUrl, description, link }) {
                         <Link href={link}><h2>{title}</h2></Link>
                 </div>
                     <p>{description}</p>
-                </div>
+            </div>
         </div>
     );
 }
