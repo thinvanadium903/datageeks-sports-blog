@@ -38,3 +38,11 @@
 #about:hover, #login:hover {
     transform: scale(1.1);
 }
+
+#title {
+    transition: transform .25s;
+}
+
+#title:hover {
+    transform: scale(1.05);
+}

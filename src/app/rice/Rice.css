@@ -1,0 +1,16 @@
+#receiving_bar {
+    background-image: url('./media/receiving\ bar\ graph.jpg');
+    background-size: cover;
+    background-position: 0px 0px;
+    height: 43vh;
+    width: 40vw;
+    border-radius: 10px;
+    margin-left: 2vw;
+    padding-bottom: 1vh;
+    transition: transform .25s;
+    resize: both;
+}
+
+#receiving_bar:hover {
+    transform: scale(1.05);
+}
