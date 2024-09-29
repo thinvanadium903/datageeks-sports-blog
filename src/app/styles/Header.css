@@ -1,9 +1,12 @@
 .header {
     width: 100vw;
     background-color: #bb3332;
-    height: 10vh;
+    height: fit-content;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 20px;
   }
 
 #login, #about {

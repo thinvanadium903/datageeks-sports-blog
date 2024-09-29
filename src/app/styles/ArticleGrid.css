@@ -4,6 +4,7 @@
     align-content: center;
     column-gap: 3vw;
     row-gap: 3vw;
+    margin: 0px;
 }
 
 @media (max-width: 700px) {

@@ -1,20 +1,3 @@
-#receiving_bar {
-    background-image: url('./media/receiving\ bar\ graph.jpg');
-    background-size: cover;
-    background-position: 0px 0px;
-    width: 65vw;
-    height: 40vw;
-    border-radius: 10px;
-    margin-left: 2vw;
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    transition: transform .25s;
-}
-
-#receiving_bar:hover {
-    transform: scale(1.05)
-}
-
 #lead_image {
     background-image: url('../media/rice.jpg');
     background-size: cover;
@@ -24,4 +7,66 @@
     border-radius: 10px;
     margin-left: 2vw;
     padding-bottom: 1vh;
+}
+
+#yards_bar1 {
+    background-image: url('./rice_media/yards2_25.jpg');
+    background-size: cover;
+    width: 65vw;
+    height: 42.565vw;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    transition: transform .25s;
+}
+
+#yards_bar2 {
+    background-image: url('./rice_media/yards1_25.jpg');
+    background-size: cover;
+    width: 65vw;
+    height: 42.565vw;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    transition: transform .25s;
+}
+
+#yards_bar1:hover, #yards_bar2:hover {
+    transform: scale(1.03)
+}
+
+#touchdowns_bar {
+    background-image: url('./rice_media/touchdowns.png');
+    background-size: cover;
+    background-position: 0px 0px;
+    width: 70vw;
+    height: 38vw;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    transition: transform .25s;
+}
+
+#touchdowns_bar:hover {
+    transform: scale(1.05)
+}
+
+#total_touchdowns_bar {
+    background-image: url('./rice_media/total_touchdowns.png');
+    background-size: cover;
+    background-position: 0px 0px;
+    width: 70vw;
+    height: 38vw;
+    border-radius: 10px;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    transition: transform .25s;
+}
+
+#total_touchdowns_bar:hover {
+    transform: scale(1.05)
 }
