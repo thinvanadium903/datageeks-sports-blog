@@ -1,9 +1,10 @@
 .body {
     width: 100vw;
     height: 100vh;
-    background-color: #dddddd;
     display: grid;
     justify-items: center;
     align-items: center;
+    justify-self: center;
+    align-self: center;
     margin: 0px;
 }

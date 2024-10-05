@@ -3,10 +3,11 @@
 import Header from '../components/Header';
 import '../styles/ArticleGuide.css'
 import './Rice.css'
+import '../styles/Wrapper.css'
 
 function App() {
   return (
-    <div>
+    <div id='wrapper'>
       <Header></Header>
       <div className='full'>
         <h1>The Unparalleled Career Dominance of Jerry Rice</h1>
@@ -49,7 +50,7 @@ function App() {
           yards have been recorded, which is less than 2 players per season.
         </p>
         <p>
-          Touchdowns are another category where no one threatens to surpass #80. Once again, I'll show you two charts: first without Jerry, then with him included. Randy Moss is another name often mentioned in debates 
+          Touchdowns are another category where no one threatens to surpass #80. Once again, I'll show you two charts: first without Rice, then with him included. Randy Moss is another name often mentioned in debates 
           over the greatest receiver of all time. A main reason for this is touchdowns - his 156 touchdown catches are insanely impressive, and give him a slim three-touchdown lead over bronze medalist Terrell Owens.
         </p>
         <div id='receiving_touchdowns_2_25'></div>

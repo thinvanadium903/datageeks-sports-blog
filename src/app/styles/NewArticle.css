@@ -1,15 +1,15 @@
 .article-whole {
     width: 40vw;
     height: fit-content;
-    background-color: #f2f2f2;
-    border-radius: 5vw;
+    border-radius: 5vw 5vw 5vw 5vw;
     transition: transform .25s;
+    border: .1vw solid black;
 }
 
 .image {
     background-size: cover;
     justify-self: center;
-    background-repeat: no-repeat;
+    align-self: center;
     height: 25vh;
     width: 40vw;
     border-radius: 5vw 5vw 0vw 0vw;
@@ -24,13 +24,8 @@
     flex-direction: column;
     width: 40vw;
     height: fit-content;
-    padding-right: 2vw;
     padding-bottom: 1vw;
     margin-left: 2vw;
-}
-
-.image {
-    border-radius: 5vw 5vw 0vw 0vw ;
 }
 
 .article-title h2 {
@@ -41,7 +36,7 @@
     margin-top: 1vh;
     margin-bottom: 1vh;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding-right: 2vw;
+    padding-right: 2.5vw;
 }
 
 .article-title:hover h2 {
@@ -65,7 +60,7 @@
     padding-bottom: 1vw;
     padding-right: 3vw;
     height: fit-content;
-    padding-top: 1vh;
+    font-weight: 600;
 }
 
 @media (max-width: 700px) {

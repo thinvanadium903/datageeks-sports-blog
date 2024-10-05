@@ -1,0 +1,18 @@
+#boxplot {
+    background-image: url('https://i.redd.it/luecva9mr5fd1.jpeg');
+    background-size: cover;
+    width: 65vw;
+    height: 49vw;
+    background-position: 0px 0px;
+    border-radius: 10px;
+    padding-bottom: 1vw;
+}
+
+#collage {
+    background-image: url('./media/final_collage.png');
+    background-size: cover;
+    width: 65vw;
+    height: 40vw;
+    border-radius: 10px;
+    padding-bottom: 1vw;
+}

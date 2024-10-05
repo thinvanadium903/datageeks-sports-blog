@@ -7,7 +7,7 @@ export const articles = [
         source: "Bleacher Report"
     },
     {
-        title: 'How Useful is a First-Round Pick in the NFL Draft?',
+        title: 'How Valuable is a First-Round Pick in the NFL Draft?',
         imageUrl: 'https://i.redd.it/luecva9mr5fd1.jpeg',
         description: 'Visualizing the NFL Draft since 1966.',
         link: "/draft",
@@ -34,5 +34,13 @@ export const articles = [
         link: "/white_sox",
         source: "Duane Burleson/Associated Press"
     },
+    {
+        title: '\'The Patrick Corbin Problem\' and the Tough Reality of Pitching on Bad Teams',
+        imageUrl: 'https://a.espncdn.com/photo/2022/0828/r1054217_1024x683_3-2.jpg',
+        description: 'Patrick Corbin\'s time with the Nationals just ended after 4 years - and I bet he\'s celebrating.',
+        link: "/corbin",
+        source: "ESPN"
+    },
+    
     
 ];

@@ -7,7 +7,6 @@ import Link from 'next/link'
 function NewArticle({ title, imageUrl, description, link, source }) {
     const divStyle = {
         backgroundImage: `url(${imageUrl})`, // Set the background image
-        
       };
     
     return (
