@@ -5,7 +5,7 @@
     height: 49vw;
     background-position: 0px 0px;
     border-radius: 10px;
-    padding-bottom: 1vw;
+    margin-bottom: 1vw;
 }
 
 #collage {
@@ -13,6 +13,21 @@
     background-size: cover;
     width: 65vw;
     height: 40vw;
-    border-radius: 10px;
-    padding-bottom: 1vw;
+    margin-bottom: 1vw;
+}
+
+@media (prefers-color-scheme: light) {
+    #collage {
+        border-radius: 20px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #collage {
+        border-radius: 0px;
+    }
+
+    #wrapper .full #collage {
+        border-radius: 0px;
+    }
 }
