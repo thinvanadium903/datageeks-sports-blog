@@ -1,14 +1,20 @@
 .header {
-    width: 100vw;
-    max-width: 100%;
-    background-color: #bb3332;
     height: fit-content;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 100vw;
+    background-color: rgb(107, 18, 18);
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 2vh 0vh;
     margin-bottom: 2vh;
-  }
+}
+
+#grand {
+    display: flex;
+}
 
 #login, #about {
     width: fit-content;
@@ -22,19 +28,19 @@
 
 #about {
     background-color: #2cc6d7;
-    margin-left: 4vw;
-    margin-right: 1vw;
 }
 
 #login {
     background-color: #ffffff;
-    margin-right: 4vw;
-    margin-left: 1vw;
 }
 
 #title {
-    align-self: center;
-    justify-self: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #title p {
@@ -42,11 +48,6 @@
     font-weight: 700;
     color: #ffffff;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    align-self: center;
-    justify-self: center;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 #about:hover, #login:hover {
