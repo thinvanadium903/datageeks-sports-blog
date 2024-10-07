@@ -1,5 +1,6 @@
 .header {
     width: 100vw;
+    max-width: 100%;
     background-color: #bb3332;
     height: fit-content;
     padding-top: 2vh;
