@@ -1,8 +1,9 @@
 .full {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     margin: 0px;
-    margin-left: 2vw;
+    margin-left: 2%;
+    padding-right: 2%;
 }
 
 .full h1 {
@@ -30,7 +31,6 @@
     padding-top: 1vh;
     padding-bottom: 1vh;
     font-weight: 400;
-    padding-right: 2vw;
 }
 
 @media (prefers-color-scheme: dark) {
