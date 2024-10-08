@@ -32,7 +32,7 @@ export const articles = [
         imageUrl: 'https://9b16f79ca967fd0708d1-2713572fef44aa49ec323e813b06d2d9.ssl.cf2.rackcdn.com/1140x_a10-7_cTC/White-Sox-Tigers-Baseball-7-1727486861.jpg',
         description: 'There\'s not much more to it than that - this team is just that bad.',
         link: "/white_sox",
-        source: "Duane Burleson/Associated Press"
+        source: "Duane Burleson (Associated Press)"
     },
     {
         title: 'College Football Has a Georgia Problem... but Georgia has an Alabama Problem',
@@ -40,6 +40,13 @@ export const articles = [
         description: 'Heartbreak abounds as Georgia loses *another* game to the Crimson Tide.',
         link: "/alabama",
         source: "AtoZSports.com"
+    },
+    {
+        title: 'What\'s the Best Strategy for Quarterback Development in 2024?',
+        imageUrl: 'https://preview.redd.it/rr3i6f4bhltd1.png?width=1080&crop=smart&auto=webp&s=05c6df78fc75ce2bee78af3641214a0923f3d701',
+        description: 'Convention says to bench a rookie QB and let them gain experience behind a veteran. Is this still true?',
+        link: "/quarterback",
+        source: "NBC4 Washington, The Draft Network"
     },
     
     

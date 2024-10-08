@@ -19,7 +19,7 @@ function NewArticle({ title, imageUrl, description, link, source }) {
                         <Link href={link}><h2>{title}</h2></Link>
                 </div>
                     <p>{description}</p> 
-                    {source && source.length != 0 && <i id='source'>Photo courtesy of {source}</i>}
+                    {source && source.length != 0 && <i id='source'>Media courtesy of {source}</i>}
             </div>
         </div>
     );
