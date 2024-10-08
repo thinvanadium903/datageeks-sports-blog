@@ -1,0 +1,13 @@
+#main_image {
+    width: 65vw;
+    height: 43.333vw;
+    background-image: url('https://atozsports.com/.image/t_share/MjA5NjIwNDM3MTgzNzY3NzEy/ryan-williams.jpg');
+    background-size: cover;
+    padding-bottom: 1vw;
+    border-radius: 2vw;
+}
+
+#space {
+    border: 0px;
+    margin-bottom: 5vw;
+}

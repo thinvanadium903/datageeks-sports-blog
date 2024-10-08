@@ -35,11 +35,11 @@ export const articles = [
         source: "Duane Burleson/Associated Press"
     },
     {
-        title: '\'The Patrick Corbin Problem\' and the Tough Reality of Pitching on Bad Teams',
-        imageUrl: 'https://a.espncdn.com/photo/2022/0828/r1054217_1024x683_3-2.jpg',
-        description: 'Patrick Corbin\'s time with the Nationals just ended after 4 years - and I bet he\'s celebrating.',
-        link: "/corbin",
-        source: "ESPN"
+        title: 'College Football Has a Georgia Problem... but Georgia has an Alabama Problem',
+        imageUrl: 'https://atozsports.com/.image/t_share/MjA5NjIwNDM3MTgzNzY3NzEy/ryan-williams.jpg',
+        description: 'Heartbreak abounds as Georgia loses *another* game to the Crimson Tide.',
+        link: "/alabama",
+        source: "AtoZSports.com"
     },
     
     
