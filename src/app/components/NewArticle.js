@@ -1,7 +1,6 @@
 'use client'
 
 import '../styles/NewArticle.css'
-// import { Link } from 'react-router-dom';
 import Link from 'next/link'
 
 function NewArticle({ title, imageUrl, description, link, source }) {
