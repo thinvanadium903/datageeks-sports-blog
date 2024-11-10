@@ -1,0 +1,42 @@
+#lead_image {
+   background-image: url(./media/flag.png);
+   width: 60vw;
+   height: 30vw;
+   background-size: cover;
+   border-radius: 2vw;
+   margin-top: 1vw;
+   margin-bottom: 1vw;
+}
+
+#special {
+    text-decoration: underline;
+}
+
+#bar, #pie {
+    width: 65vw;
+    height: 42.75vw;
+    background-size: cover;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+@media (prefers-color-scheme: light) {
+    #bar {
+        background-image: url(./media/light_bar.png);
+    }
+
+    #pie {
+        background-image: url(./media/light_pie.png);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #bar {
+        background-image: url(./media/dark_bar.png);
+    }
+
+    #pie {
+        background-image: url(./media/dark_pie.png);
+        justify-self: center;
+    }
+}

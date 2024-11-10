@@ -15,6 +15,7 @@ function ArticleGrid({ articles }) {
                     description={article.description}
                     link={article.link}
                     source={article.source}
+                    date={article.date}
                 />
             ))}
         </div>
