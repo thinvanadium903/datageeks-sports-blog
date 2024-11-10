@@ -58,8 +58,8 @@ function App() {
           To show you how large Jerry Rice's lead stands in the department of receiving yardage, 
           the first graph I'll show you has him removed. Here, the top receiver is Larry 
           Fitzgerald, who is one of only two players in NFL history to reach 16,000 receiving 
-          yards. Specifically, his total stands at 17,492 yards, or about a 10% lead over 
-          Hall of Fame receiver Terrell Owens.
+          yards over their NFL career. Specifically, his total stands at 17,492 yards, or about 
+          a 10% lead over Hall of Fame receiver Terrell Owens.
         </p>
         <div id='yards_bar1'></div>
         <p>Now, here's another chart made to include Rice. His career total in receiving yards?</p>
@@ -76,21 +76,22 @@ function App() {
           <li>Play 20 seasons, averaging 1,100 yards per season, without injury</li>
           <p>This is not possible. Most obviously, there are only a handful of pass catchers in 
             NFL history who have played even 15 quality seasons. The players that have - 
-            Fitzgerald, Terrell Owens, Tony Gonzalez, Jason Witten, etc. - didn't even approach 
-            come close to 22,000 yards. The part about reaching 1,100 yards isn't the hard part; 
+            Fitzgerald, Terrell Owens, Tony Gonzalez, Jason Witten, etc. - retired far, far 
+            away from the mountaintop. The part about reaching 1,100 yards is not the hard part; 
             since the 2000 NFL season, an average of 15 receivers per year will reach this mark, 
             but expecting this kind of production year after year is not realistic. Also, Jerry 
-            Rice himself missed virtually the entire 1997 season with an injury, playing only 2 
-            games. So, to ask for no injuries from even the iron men of NFL lore is not happening.
+            Rice himself missed virtually the entire 1997 season with an injury, so to ask for 
+            no injuries from even the iron men of NFL lore is not happening.
           </p>
           <li>Play 15 seasons, averaging 1,500 yards per season, without injury</li>
-          <p>This has an even slimmer chance of happening; only about 2 receivers per year 
-            reach 1,500 yards. That mark is good enough to lead the league most season, and 
-            that pace is not sustainable for more than a few years at a time.
+          <p>This has an even slimmer chance of happening; in this same time span only about two 
+            receivers per year reach 1,500 yards (41 such seasons since 2000). That mark is 
+            almost always enough to be top-three in the league, and that pace is not sustainable 
+            for more than a few years at a time.
           </p>
         </ol>
         <p>Also, did I mention that (1,100 * 20) is 22,000 yards, which is STILL short of the record? And 
-          that (1,500 * 15) = 22,500 yards, again shy of the record. If there's a receiver out there who 
+          (1,500 * 15) = 22,500 yards, again shy of the record. If there's a receiver out there who 
           feels capable of climbing this mountain, all I have to say is this: you better start now. 😅
         </p>
         <h2>Receiving Touchdowns</h2>

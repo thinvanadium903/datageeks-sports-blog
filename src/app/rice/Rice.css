@@ -1,4 +1,4 @@
-#lead_image, #yards_bar1, #yards_bar2, #receiving_touchdowns_2_25, #receiving_touchdowns_1_25 {
+#yards_bar1, #yards_bar2, #receiving_touchdowns_2_25, #receiving_touchdowns_1_25 {
     border-radius: 2vw;
     background-size: cover;
     background-position: center;
@@ -7,8 +7,11 @@
 }
 
 #lead_image {
-    background-image: url('../media/rice.jpg');
-    width: 65vw;
+    background-image: url('./rice_media/rice.jpg');
+    border-radius: 2vw;
+    background-size: cover;
+    background-position: center;
+    width: 1350px;
     height: 42.565vw;
     margin-bottom: 1vw;
 }
