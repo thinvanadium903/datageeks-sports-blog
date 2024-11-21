@@ -1,59 +1,44 @@
-#yards_bar1, #yards_bar2, #receiving_touchdowns_2_25, #receiving_touchdowns_1_25 {
+.image {
     border-radius: 2vw;
     background-size: cover;
     background-position: center;
-    width: 65vw;
-    height: 42.565vw;
+    max-width: 1350px;
+    width: 100%;
+    max-height: 875px;
+    height: fit-content;
+    aspect-ratio: 3000 / 1944;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    transition: transform .25s;
+    justify-self: left;
 }
 
 #lead_image {
     background-image: url('./rice_media/rice.jpg');
-    border-radius: 2vw;
-    background-size: cover;
-    background-position: center;
-    width: 1350px;
-    height: 42.565vw;
-    margin-bottom: 1vw;
+    aspect-ratio: 3487 / 2299;
 }
 
 #yards_bar1 {
     background-image: url('./rice_media/yards2_25.jpg');
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    transition: transform .25s;
 }
 
 #yards_bar2 {
     background-image: url('./rice_media/yards1_25.jpg');
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    transition: transform .25s;
+    
 }
 
 #yards_bar1:hover, #yards_bar2:hover {
-    transform: scale(1.03)
+    transform: scale(1.02)
 }
 
 #receiving_touchdowns_2_25 {
     background-image: url('./rice_media/receiving_touchdowns_2_25.jpg');
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    transition: transform .25s;
 }
 
 #receiving_touchdowns_1_25 {
     background-image: url('./rice_media/receiving_touchdowns_1_25.jpg');
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-    transition: transform .25s;
 }
 
 #receiving_touchdowns_1_25:hover, #receiving_touchdowns_2_25:hover {
-    transform: scale(1.03)
-}
-
-@media (max-width: 1420px) {
-    #lead_image {
-        width: 100%;
-    }
+    transform: scale(1.02)
 }

@@ -16,7 +16,7 @@ function NewArticle({ title, imageUrl, description, link, source, date }) {
                 
                     <p>{description}</p> 
                     {source && source.length != 0 && <i id='source'>Media courtesy of {source}</i>}
-                    {date && date.length != 0 && <div id='clock'></div>}
+                    {date && date.length != 0 && <em id='date'>{date}</em>}
             </div>
         </div>
     );
