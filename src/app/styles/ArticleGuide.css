@@ -48,6 +48,10 @@
     padding-right: 3vw;
 }
 
+ol, ul {
+    margin-left: 2%;
+}
+
 @media (prefers-color-scheme: dark) {
     .full h1, .full h2, .full h3, .full h4, .full p, .full .source, .full ol, .full li {
         color: white; 
