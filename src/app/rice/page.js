@@ -11,7 +11,7 @@ function App() {
       <Header></Header>
       <div className='full'>
         <h1>The Unparalleled Career Dominance of Jerry Rice</h1>
-        <div id='lead_image' class='image'></div>
+        <div id='lead_image' class='image-in-article'></div>
         <i>Note: Statistics shown are correct as of the conclusion of Week 3 of the 2024 NFL 
           season.
         </i>
@@ -64,10 +64,10 @@ function App() {
           yards over their NFL career. Specifically, his total stands at 17,492 yards, or about 
           a 10% lead over Hall of Fame receiver Terrell Owens.
         </p>
-        <div id='yards_bar1' className='image'></div>
+        <div id='yards_bar1' className='image-in-article'></div>
         <p>Now, here's another chart made to include Rice. His career total in receiving yards?</p>
         <h2>22,895.</h2>
-        <div id='yards_bar2' className='image'></div>
+        <div id='yards_bar2' className='image-in-article'></div>
         <p>
           Fitzgerald is a future Hall of Fame receiver too, but he can't even get within 5,000 
           yards of Rice. To reach him, he would need to magically increase his receiving yardage 
@@ -106,11 +106,11 @@ function App() {
           for this is touchdowns - his 156 touchdown catches are insanely impressive, and give 
           him a slim three-touchdown lead over the bronze medalist Terrell Owens.
         </p>
-        <div id='receiving_touchdowns_2_25' class='image'></div>
+        <div id='receiving_touchdowns_2_25' class='image-in-article'></div>
         <p>
           But here's the same graph with Jerry.
         </p>
-        <div id='receiving_touchdowns_1_25' class='image'></div>
+        <div id='receiving_touchdowns_1_25' class='image-in-article'></div>
         <p>
           Rice's 197 touchdown catches stand 26% above Moss' career total. In these two 
           categories he is untouchable; although a receiver could hypothetically catch 198 
@@ -120,7 +120,7 @@ function App() {
           outstandingly talented skill position players, including notables Roger Craig and 
           Garrison Hearst.
         </p>
-        <div id='total_touchdowns_bar' class='image'></div>
+        <div id='total_touchdowns_bar' class='image-in-article'></div>
       </div>
     </div>
   );

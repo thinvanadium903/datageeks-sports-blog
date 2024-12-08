@@ -63,6 +63,14 @@ export const articles = [
         source: "Detroit Free Press",
         date: "Nov. 11, 2024"
     },
+    {
+        title: "Analyzing the Falcons' 2024 Season",
+        imageUrl: '',
+        description: "This team sought a new identity and a playoff spot at the start of the year - are we there yet?",
+        link: "/ranking-falcons-games",
+        source: "Source",
+        date: "Dec. 2, 2024"
+    }
     
     
 ];
