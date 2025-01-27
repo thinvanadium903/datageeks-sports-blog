@@ -12,7 +12,12 @@ function App() {
       <div className='full'>
         <h1>How Valuable is a First-Round Pick in the NFL Draft?</h1>
         <div id='collage'></div>
-        <p>Okay, so I guess I'll start by clarifying what "most valuable" actually means, and how we plan to measure that.</p>
+        <p>Okay, so I guess I'll start by clarifying what "valuable" actually means, and how 
+          we plan to measure that.</p>
+        <p>The definition of the "most valuable player", to me, is "the player who most 
+          dramatically improves the quality of the team around them, by no other means than their own talent and 
+          leadership." 
+        </p>
       </div>
     </div>
   );

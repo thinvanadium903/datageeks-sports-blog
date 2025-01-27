@@ -48,14 +48,6 @@ export const articles = [
         date: "Oct. 14, 2024"
     },
     {
-        title: 'What\'s the Best Strategy for Quarterback Development in 2024?',
-        imageUrl: 'https://preview.redd.it/rr3i6f4bhltd1.png?width=1080&crop=smart&auto=webp&s=05c6df78fc75ce2bee78af3641214a0923f3d701',
-        description: 'Convention says to bench a rookie QB and let them gain experience behind a veteran. Is this still true?',
-        link: "/quarterback",
-        source: "NBC4 Washington, The Draft Network",
-        date: "Oct. 24, 2024"
-    },
-    {
         title: 'STUB: Jared Goff Just Threw 5 Interceptions and Won - How Rare is That?',
         imageUrl: 'https://www.freep.com/gcdn/authoring/authoring-images/2024/11/11/PDTF/76187815007-2184081342.jpg?crop=5884,3310,x0,y196&width=660&height=371&format=pjpg&auto=webp',
         description: "The Lions' 26-23 win over the Texans in Week 9 marks a humorous type of NFL game, and a very unfortunate one for Houston fans.",
@@ -64,13 +56,37 @@ export const articles = [
         date: "Nov. 11, 2024"
     },
     {
+        title: "The 2024-2025 Cleveland Cavaliers are now 16-1. Let's Predict Their Record.",
+        imageUrl: 'https://cloudfront-us-east-1.images.arcpublishing.com/advancelocal/VRTNQYB7UZHEZOY5KCHBP3YNYM.JPG',
+        description: "A historic 15-0 start to the season places the Cavaliers in elite NBA company, and we can expect them to contend for a title.",
+        link: "/cavaliers-prediction",
+        source: "Joshua Gunter, Cleveland.com",
+        date: "Nov. 21, 2024"
+    },
+    {
         title: "Analyzing the Falcons' 2024 Season",
         imageUrl: '',
         description: "This team sought a new identity and a playoff spot at the start of the year - are we there yet?",
         link: "/ranking-falcons-games",
         source: "Source",
         date: "Dec. 2, 2024"
-    }
+    },
+    {
+        title: 'What\'s the Best Strategy for Quarterback Development in 2024?',
+        imageUrl: 'https://preview.redd.it/rr3i6f4bhltd1.png?width=1080&crop=smart&auto=webp&s=05c6df78fc75ce2bee78af3641214a0923f3d701',
+        description: 'Convention says to bench a rookie QB and let them gain experience behind a veteran. Is this still true?',
+        link: "/quarterback",
+        source: "NBC4 Washington, The Draft Network",
+        date: "Jan. 14, 2025"
+    },
+    {
+        title: "Interesting Facts and Trivia from The 2024 NFL Season",
+        imageUrl: '',
+        description: 'A quick rundown of strange games and other phenomena in a season to remember.',
+        link: "/2024_recap",
+        source: "Source",
+        date: "Jan. 23, 2025"
+    },
     
     
 ];

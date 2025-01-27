@@ -17,7 +17,7 @@ function App() {
         </i>
         <p>Welcome to DataGeeks Sports Blog! I've had the idea to make a sports blog for a while, 
           to showcase and highlight some of the more fascinating sports stories and facts out there. 
-          Unfortunately at the time, I had no website creation skills, so I was forced to shelve 
+          Unfortunately at the time, I had no website creation skills, so I was forced to scrap 
           the project. However, I've kept a list of interesting topics that I want 
           to cover, and this is the first one on that list - the insanity of Jerry Rice's career.
         </p>
@@ -27,13 +27,11 @@ function App() {
           team success, and the "intangibles." These are subjective criteria; there is no 
           "formula" to plug in a player's numbers and spit out an assessment of that player's 
           career. And in sports, two fans may have drastically different interpretations of what 
-          makes a player the "greatest of all time." And besides, almost no one player in any 
-          sports conversation will satisfy all criteria set forth by an at-home analyst, so 
-          these types of conversations usually produce a variety of names.
+          makes a player the "greatest of all time." 
         </p>
-          <p>However, in football, the wide receiver position does not experience this dilemma; 
-            simply put, Jerry Rice has it all. In his unprecedented 20-year career, Rice combined 
-            elite, league-leading performance with longevity and durability that would be 
+          <p>However, in football, the wide receiver position does not have this problem; 
+            simply put, Jerry Rice has it all. In an unprecedented 20-year career, Rice combined 
+            league-leading performance with longevity and durability that would be 
             exceptional for a quarterback or kicker, let alone the brutally physical wide receiver 
             position. His career statistics tower over every other receiver's despite 
             playing in a much more defense-friendly era, and the degree to which he dominated his 
@@ -85,7 +83,7 @@ function App() {
             since the 2000 NFL season, an average of 15 receivers per year will reach this mark, 
             but expecting this kind of production year after year is not realistic. Also, Jerry 
             Rice himself missed virtually the entire 1997 season with an injury, so to ask for 
-            no injuries from even the iron men of NFL lore is not happening.
+            no injuries is too unrealistic.
           </p>
           <li>Play 15 seasons, averaging 1,500 yards per season, without injury</li>
           <p>This has an even slimmer chance of happening; in this same time span only about two 
